@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html
+{
+    margin: 0%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#header
+{
+    height: 20vh;
+    display: flex;
+}
+#srch
+{
+    max-width: 70%;
+    display: flex;
+    font-size: 25px;
+    padding: 10px 10px;
+    width: 50px; /* Initial width of the search box */
+    overflow: hidden; /* Hide overflowing content */
+    transition: width 0.3s, border-radius 0.3s; /* Transition effect for smooth expansion and border radius change */
+    border: 2px solid #ccc; /* Default border */
+    border-radius: 50px; /* Default border radius */
+}
+#srch:hover
+{
+    transform: scale(1.4);
+    background-color: #000000;
+    color: white;
+}
+
+.searchbar
+{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.search-container {
+    width: 200px; /* Initial width of the search box */
+    overflow: hidden; /* Hide overflowing content */
+    transition: width 0.3s, border-radius 0.3s; /* Transition effect for smooth expansion and border radius change */
+    border: 2px solid #ccc; /* Default border */
+    border-radius: 50px; /* Default border radius */
+}
+
+/* Style for the search input */
+.search-input {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding for the input */
+    border: none; /* No border for the input */
+    outline: none; /* Remove outline */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Hover effect on the search container */
+.search-container:hover {
+    width: 250px; /* Expanded width on hover */
+    border-radius: 50px; /* Rounded corners on hover */
+}
+
+.logo
+{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+}
+.button
+{
+    width: 100%;
+    text-align: center;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+}
+.login-button {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #ffffff; /* Default background color */
+    color: #000000; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+}
+
+.login-button:hover {
+    background-color: #000000; /* New background color on hover */
+    color: white;
+    transform: scale(1.3);
+}
+
+.login-button1 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #ffffff; /* Default background color */
+    color: #000000; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 20px;
+}
+.login-button1:hover {
+    background-color: #000000; /* New background color on hover */
+    color: white;
+    transform: scale(1.3);
+}
+.login-button1c {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 20px;
+}
+.login-button1c:hover {
+    border-color: #000000;
+    background-color: #000000; /* New background color on hover */
+    color: white;
+    transform: scale(1.3);
+}
+.login-button11 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+}
+.login-button11:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button011 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top: 45px;
+}
+.login-button011:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button013 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top: 25px;
+}
+.login-button013:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button113 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top: 30px;
+}
+.login-button113:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button1133 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top:25px;
+}
+.login-button1133:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button114 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top: 10px;
+}
+.login-button114:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button115 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top: 15px;
+}
+.login-button115:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button1155 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top:25px;
+}
+.login-button1155:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+.login-button015 {
+    margin-right: 20px;
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #000000; /* Default background color */
+    color: #ffffff; /* Text color */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for smooth color change */
+    font-size: 15px;
+    margin-top: 25px;
+}
+.login-button015:hover {
+    background-color: #00ff0d; /* New background color on hover */
+    color: rgb(0, 0, 0);
+}
+
+#nav
+{
+    height: 15vh;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center ;
+    align-items: center;
+    display: flex;
+}
+
+#allitems
+{
+    height: 50vh;
+}
+#allitems1
+{
+    height: 55vh;
+}
+#items {
+    height: 40vh;
+    display: flex; /* Use flexbox to arrange items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 30px;
+}
+.item1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+    
+}
+.item1 img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    max-height: 100px; /* Set the maximum height of the image */
+}
+.item10 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item10 img {
+    max-width: 120%; /* Make the image responsive */
+    height: auto;
+    max-height: 130px; /* Set the maximum height of the image */
+}
+.item2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item2 img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    max-height: 100px; /* Set the maximum height of the image */
+}
+.item20 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item20 img {
+    max-width: 130%; /* Make the image responsive */
+    height: auto;
+    max-height: 130px; /* Set the maximum height of the image */
+}
+.item3 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item3 img {
+    max-width: 150%; /* Make the image responsive */
+    height: auto;
+    max-height: 120px; /* Set the maximum height of the image */
+}
+.item30 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item30 img {
+    max-width: 150%; /* Make the image responsive */
+    height: auto;
+    max-height: 120px; /* Set the maximum height of the image */
+}
+.item33 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item33 img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    max-height: 100px; /* Set the maximum height of the image */
+}
+.item30 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item30 img {
+    max-width: 120%; /* Make the image responsive */
+    height: auto;
+    max-height: 130px; /* Set the maximum height of the image */
+}
+.item4 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item4 img {
+    max-width: 110%; /* Make the image responsive */
+    height: auto;
+    max-height: 150px; /* Set the maximum height of the image */
+}
+.item44 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item44 img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    max-height: 100px; /* Set the maximum height of the image */
+}
+.item40 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item40 img {
+    max-width: 120%; /* Make the image responsive */
+    height: auto;
+    max-height: 130px; /* Set the maximum height of the image */
+}
+.item5 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item5 img {
+    max-width: 140%; /* Make the image responsive */
+    height: auto;
+    max-height: 110px; /* Set the maximum height of the image */
+}
+.item55 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item55 img {
+    max-width: 90%; /* Make the image responsive */
+    height: auto;
+    max-height: 90px; /* Set the maximum height of the image */
+}
+.item50 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item50 img {
+    max-width: 120%; /* Make the image responsive */
+    height: auto;
+    max-height: 130px; /* Set the maximum height of the image */
+}
+.item6 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px; /* Set the width of the item box */
+    margin-right: 10px; /* Add some spacing between items */
+    border-radius: 10px;
+}
+.item6 img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    max-height: 100px; /* Set the maximum height of the image */
+}
+
+#slide
+{
+    height: 88vh;
+    background-image: url('SLIDE.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#shoes
+{
+    height: 88vh;
+
+    background-image: url('FOAM.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#foam
+{
+    height: 88vh;
+    background-image: url('SHOES.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#footer
+{
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+#footer a{
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    width: 3%;
+}
+#footer i{
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+
+}
+#footer i:hover
+{
+    transform: scale(1.5);
+}
+#ig
+{
+    width: 3%;
+    font-size: 30px;
+}
+#fb
+{
+    width: 3%;
+    font-size: 30px;
+}
+#twt
+{
+    width: 3%;
+    font-size: 30px;
+}
+#yt
+{
+    width: 3%;
+    font-size: 30px;
+}
+#ig:hover
+{
+    color: orangered;
+}
+#fb:hover
+{
+    color: blue;
+}
+#twt:hover
+{
+    color: skyblue;
+}
+#yt:hover
+{
+    color: red;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 12px;
+    align-items: center;
+}
+
+.footer-col h5{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: all 0.3 ease;
+    font-size: 20px;
+}
+
+.footer-col ul li a:hover{
+    color:#ffffff;
+    transform: scale(1.2);
+}
+#footer1
+{
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
